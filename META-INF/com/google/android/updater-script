@@ -1,0 +1,5 @@
+ui_print "Installing Magisk Module to monitor charging events..."
+set_perm_recursive 0 0 0755 0755 /data/adb/modules/mmi_chrg_manager
+set_perm 0 0 0755 0755 /data/adb/modules/mmi_chrg_manager/service.sh
+set_perm 0 0 0755 0755 /data/adb/modules/mmi_chrg_manager/post-fs-data.sh
+ui_print "Installation complete!"
