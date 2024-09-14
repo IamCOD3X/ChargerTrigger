@@ -1,0 +1,3 @@
+#!/bin/sh
+# This is a placeholder update-binary script for Magisk module installation
+exit 0
