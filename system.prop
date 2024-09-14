@@ -1,2 +1,24 @@
-# system.prop
-# Empty for now
+# ChargerTrigger Properties
+
+# Fast charging settings
+ro.chargertrigger.fast_charge=1
+persist.chargertrigger.max_current=3000000
+persist.chargertrigger.max_voltage=5000000
+
+# Battery health and safety settings
+persist.chargertrigger.max_battery_charge=80
+persist.chargertrigger.thermal_throttle=1
+persist.chargertrigger.max_temp=40
+persist.chargertrigger.temp_safety_halt=1
+
+# Logging and debugging
+persist.chargertrigger.enable_logging=1
+persist.chargertrigger.log_level=2
+
+# Current and voltage monitoring
+persist.chargertrigger.current_monitor=1
+persist.chargertrigger.voltage_monitor=1
+
+# Device-specific property for Moto G32
+ro.product.device=MotoG32
+ro.chargertrigger.device_specific=1
