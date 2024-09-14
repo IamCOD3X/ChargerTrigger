@@ -1,0 +1,6 @@
+id=charger-trigger
+name=Fast Charger Assistant
+version=v1.0
+versionCode=1001
+author=IamCOD3X
+description=Automatically enables fast charging on supported devices, Prevents issues with inconsistent charging speed.
